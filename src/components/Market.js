@@ -14,7 +14,7 @@ class Market extends Component {
     render() {
         return (
             <div>
-<div>{this.props.Inventory.numItems}</div>
+                <div>{this.props.Inventory.numItems}</div>
                 <input type="text" onKeyDown={this.addItem}></input>
                 {this.props.Inventory.items.map(i =>
                     <Item i={i} />)}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { observer } from 'mobx-react'
 import Market from './components/Market';
